@@ -5,83 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexus - Tu Espacio Digital Personal</title>
     
-    <!-- CSS Principal -->
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/components.css">
-    <link rel="stylesheet" href="styles/sections.css">
-    <link rel="stylesheet" href="styles/responsive.css">
-    
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Incluir aquí todo el CSS del archivo original */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #111111;
+            --bg-tertiary: #1a1a1a;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0a0;
+            --accent: #6366f1;
+            --accent-hover: #818cf8;
+            --accent-glow: rgba(99, 102, 241, 0.4);
+            --border: rgba(255, 255, 255, 0.1);
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --card-hover: rgba(255, 255, 255, 0.05);
+            --shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            --gradient-accent: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            --gradient-hover: linear-gradient(135deg, #818cf8 0%, #a78bfa 100%);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Página de mantenimiento temporal */
+        .maintenance {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .maintenance h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3rem;
+            background: var(--gradient-accent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+
+        .maintenance p {
+            color: var(--text-secondary);
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+
+        .maintenance a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .maintenance a:hover {
+            color: var(--accent-hover);
+        }
+    </style>
 </head>
 <body>
-    <div class="bg-animation"></div>
-    
-    <!-- Sidebar Component -->
-    <aside class="sidebar" id="sidebar"></aside>
-
-    <!-- Main Content -->
-    <main class="main-content" id="mainContent"></main>
-
-    <!-- Floating Components -->
-    <div id="floatingComponents"></div>
-
-    <!-- Modals Container -->
-    <div id="modalsContainer"></div>
-
-    <!-- Landing Page -->
-    <div class="landing-page" id="landingPage"></div>
-
-    <!-- Status Messages -->
-    <div class="upload-status" id="uploadStatus">
-        <span class="upload-status-icon"></span>
-        <span class="upload-status-text"></span>
+    <!-- Página temporal mientras migras el código -->
+    <div class="maintenance">
+        <h1>NEXUS</h1>
+        <p>Estamos trabajando en mejoras para ti</p>
+        <p>Vuelve pronto para descubrir la nueva experiencia</p>
+        <p style="margin-top: 3rem; font-size: 1rem;">
+            <a href="https://github.com/IamEac/nexus" target="_blank">Ver progreso en GitHub →</a>
+        </p>
     </div>
 
+    <!-- Incluir aquí el HTML completo del archivo original -->
+    
     <!-- Supabase -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     
-    <!-- Configuration -->
-    <script src="js/config.js"></script>
-    
-    <!-- Core Modules -->
-    <script src="js/core/auth.js"></script>
-    <script src="js/core/database.js"></script>
-    <script src="js/core/storage.js"></script>
-    <script src="js/core/state.js"></script>
-    
-    <!-- Services -->
-    <script src="js/services/user.service.js"></script>
-    <script src="js/services/follow.service.js"></script>
-    <script src="js/services/content.service.js"></script>
-    <script src="js/services/notification.service.js"></script>
-    
-    <!-- Components -->
-    <script src="js/components/sidebar.js"></script>
-    <script src="js/components/modals.js"></script>
-    <script src="js/components/cards.js"></script>
-    <script src="js/components/posts.js"></script>
-    <script src="js/components/landing.js"></script>
-    
-    <!-- Sections -->
-    <script src="js/sections/home.js"></script>
-    <script src="js/sections/feed.js"></script>
-    <script src="js/sections/search.js"></script>
-    <script src="js/sections/music.js"></script>
-    <script src="js/sections/movies.js"></script>
-    <script src="js/sections/books.js"></script>
-    <script src="js/sections/articles.js"></script>
-    <script src="js/sections/posts.js"></script>
-    <script src="js/sections/media.js"></script>
-    
-    <!-- Utilities -->
-    <script src="js/utils/helpers.js"></script>
-    <script src="js/utils/validators.js"></script>
-    <script src="js/utils/formatters.js"></script>
-    
-    <!-- Main App -->
-    <script src="js/app.js"></script>
+    <script>
+        // Incluir aquí todo el JavaScript del archivo original
+        console.log('Nexus - En construcción');
+    </script>
 </body>
 </html>
