@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus - Tu Espacio Digital Personal</title>
+    
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/sections.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-animation"></div>
+    
+    <!-- Sidebar Component -->
+    <aside class="sidebar" id="sidebar"></aside>
+
+    <!-- Main Content -->
+    <main class="main-content" id="mainContent"></main>
+
+    <!-- Floating Components -->
+    <div id="floatingComponents"></div>
+
+    <!-- Modals Container -->
+    <div id="modalsContainer"></div>
+
+    <!-- Landing Page -->
+    <div class="landing-page" id="landingPage"></div>
+
+    <!-- Status Messages -->
+    <div class="upload-status" id="uploadStatus">
+        <span class="upload-status-icon"></span>
+        <span class="upload-status-text"></span>
+    </div>
+
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+    <!-- Configuration -->
+    <script src="js/config.js"></script>
+    
+    <!-- Core Modules -->
+    <script src="js/core/auth.js"></script>
+    <script src="js/core/database.js"></script>
+    <script src="js/core/storage.js"></script>
+    <script src="js/core/state.js"></script>
+    
+    <!-- Services -->
+    <script src="js/services/user.service.js"></script>
+    <script src="js/services/follow.service.js"></script>
+    <script src="js/services/content.service.js"></script>
+    <script src="js/services/notification.service.js"></script>
+    
+    <!-- Components -->
+    <script src="js/components/sidebar.js"></script>
+    <script src="js/components/modals.js"></script>
+    <script src="js/components/cards.js"></script>
+    <script src="js/components/posts.js"></script>
+    <script src="js/components/landing.js"></script>
+    
+    <!-- Sections -->
+    <script src="js/sections/home.js"></script>
+    <script src="js/sections/feed.js"></script>
+    <script src="js/sections/search.js"></script>
+    <script src="js/sections/music.js"></script>
+    <script src="js/sections/movies.js"></script>
+    <script src="js/sections/books.js"></script>
+    <script src="js/sections/articles.js"></script>
+    <script src="js/sections/posts.js"></script>
+    <script src="js/sections/media.js"></script>
+    
+    <!-- Utilities -->
+    <script src="js/utils/helpers.js"></script>
+    <script src="js/utils/validators.js"></script>
+    <script src="js/utils/formatters.js"></script>
+    
+    <!-- Main App -->
+    <script src="js/app.js"></script>
+</body>
+</html>
