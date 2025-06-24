@@ -1,8 +1,18 @@
-// package.json
 {
+  "name": "nexus-social",
+  "version": "1.0.0",
+  "description": "Nexus - Tu Espacio Digital Personal",
+  "main": "index.html",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  }
+    "build": "echo 'No build needed for static site'"
+  },
+  "keywords": [
+    "social",
+    "network",
+    "personal",
+    "portfolio"
+  ],
+  "author": "IamEac",
+  "license": "MIT",
+  "devDependencies": {}
 }
